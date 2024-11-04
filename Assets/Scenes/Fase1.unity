@@ -6990,6 +6990,10 @@ GameObject:
   - component: {fileID: 1757163787}
   - component: {fileID: 1757163786}
   - component: {fileID: 1757163785}
+  - component: {fileID: 1757163789}
+  - component: {fileID: 1757163791}
+  - component: {fileID: 1757163790}
+  - component: {fileID: 1757163792}
   m_Layer: 0
   m_Name: Pawn_Purple_Frame_0
   m_TagString: Untagged
@@ -7126,6 +7130,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1757163789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757163784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e08c1ed7be3bf84d8dc5904b98dbbfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaHeroi: 100
+  vidaVilao: 300
+--- !u!114 &1757163790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757163784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4970d99f6dd971e4d9ad641823c0557e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaPersonagem: 0
+--- !u!114 &1757163791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757163784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59e7a6a851c3fd4f9ec94c9fbd19d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerupColetado: 1
+  velocidadePersonagem: 100
+--- !u!114 &1757163792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757163784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa419a3b000ef248b5322f4a4d0cbe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerupColetado: 0
+  vidaPersonagem: 100
 --- !u!1 &1778226576
 GameObject:
   m_ObjectHideFlags: 0
