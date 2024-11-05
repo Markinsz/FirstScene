@@ -6994,6 +6994,10 @@ GameObject:
   - component: {fileID: 1757163791}
   - component: {fileID: 1757163790}
   - component: {fileID: 1757163792}
+  - component: {fileID: 1757163793}
+  - component: {fileID: 1757163794}
+  - component: {fileID: 1757163795}
+  - component: {fileID: 1757163796}
   m_Layer: 0
   m_Name: Pawn_Purple_Frame_0
   m_TagString: Untagged
@@ -7144,6 +7148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaHeroi: 100
   vidaVilao: 300
+  estadoVilao: 0
 --- !u!114 &1757163790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7151,7 +7156,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757163784}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4970d99f6dd971e4d9ad641823c0557e, type: 3}
   m_Name: 
@@ -7164,7 +7169,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757163784}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f59e7a6a851c3fd4f9ec94c9fbd19d7c, type: 3}
   m_Name: 
@@ -7178,13 +7183,65 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757163784}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fa419a3b000ef248b5322f4a4d0cbe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   powerupColetado: 0
   vidaPersonagem: 100
+--- !u!114 &1757163793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757163784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e07804b24e05fb439150033814f800c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PocaoDeVida: 0
+--- !u!114 &1757163794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757163784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5ef03b653d59a48b65369bef703f2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pontuacao: 40
+--- !u!114 &1757163795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757163784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b7e74a854e6c64b8906db87f4f2154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Classe: Druida
+--- !u!114 &1757163796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757163784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164b1f931cc7f8d48bcaaed695884822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dado: 20
 --- !u!1 &1778226576
 GameObject:
   m_ObjectHideFlags: 0
