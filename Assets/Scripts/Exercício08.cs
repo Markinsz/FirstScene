@@ -17,8 +17,7 @@ public class Exercício08 : MonoBehaviour
 {
     [SerializeField]int horas = 0;
     [SerializeField]int dia;
-    [SerializeField]float intervalo = 2.0f;
-    float timer;
+    [SerializeField] float intervalo;
 
     // Start is called before the first frame update
     void Start()
@@ -29,8 +28,8 @@ public class Exercício08 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= intervalo)
+        intervalo += Time.deltaTime;
+        if (intervalo >= 10f)
         {
             // Executa o código que você quer no intervalo
             horas++;
@@ -41,7 +40,7 @@ public class Exercício08 : MonoBehaviour
                 dia++;
                 print(dia + "dia(s) se passaram");
             }
-            timer = 0f;
+            intervalo = 0f;
         }
        
     }
