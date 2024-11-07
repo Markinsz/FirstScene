@@ -1332,6 +1332,7 @@ GameObject:
   - component: {fileID: 358572591}
   - component: {fileID: 358572590}
   - component: {fileID: 358572589}
+  - component: {fileID: 358572592}
   m_Layer: 0
   m_Name: Torch_Red_Frame_0
   m_TagString: Untagged
@@ -1468,6 +1469,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &358572592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358572587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad329ad0e3295c5468bceb746760b37e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &363721061
 GameObject:
   m_ObjectHideFlags: 0
@@ -7236,7 +7249,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757163784}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 164b1f931cc7f8d48bcaaed695884822, type: 3}
   m_Name: 
