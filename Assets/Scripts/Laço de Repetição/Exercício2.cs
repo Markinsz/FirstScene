@@ -12,14 +12,14 @@ ataque.
 
 public class Exercício2 : MonoBehaviour
 {
-    int Dano = 10;
+    [SerializeField]int Dano = 10;
 
     // Start is called before the first frame update
     void Start()
     {
         for (int i = 0; i <= 5; i++)
         {
-            Dano = Dano + 2;
+            Dano += 2;
             print(Dano);
         }
     }
