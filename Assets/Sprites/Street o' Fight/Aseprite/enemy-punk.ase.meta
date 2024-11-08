@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ba5ea90357ca0843b7f937094b43df9
+guid: 2aa4dd61467447a46a8c29445821f3f3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 0
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +88,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 0
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638666767023292296
+  platformSettingsDirtyTick: 638666801273020123
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,238 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Happy_Sheep_Frame_0
+  - name: enemy-punk_Frame_0
     originalName: 
-    pivot: {x: 0.4883721, y: 0.57894737}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 57
-      y: 92
-      width: 43
-      height: 38
-    spriteID: 0ef03b20d56e90c4492ef20d13f02bda
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 57, y: 92}
-  - name: Happy_Sheep_Frame_1
-    originalName: 
-    pivot: {x: 0.4883721, y: 0.57894737}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 57
-      y: 138
-      width: 43
-      height: 38
-    spriteID: bd23d1ef05ff539488e86d23ca355e87
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 57, y: 138}
-  - name: Happy_Sheep_Frame_2
-    originalName: 
-    pivot: {x: 0.4883721, y: 0.57894737}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 57
-      y: 184
-      width: 43
-      height: 38
-    spriteID: b93480abed9072a4c95e406d0cee3ed1
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 57, y: 184}
-  - name: Happy_Sheep_Frame_3
-    originalName: 
-    pivot: {x: 0.4883721, y: 0.57894737}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 111
-      y: 4
-      width: 43
-      height: 38
-    spriteID: 8fed9af462c86c847b345d8bae710f81
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 111, y: 4}
-  - name: Happy_Sheep_Frame_4
-    originalName: 
-    pivot: {x: 0.4883721, y: 0.5945946}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 111
-      y: 142
-      width: 43
-      height: 37
-    spriteID: 9bdaf3da87e6d4443a0d37169e4b66c6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 111, y: 142}
-  - name: Happy_Sheep_Frame_5
-    originalName: 
-    pivot: {x: 0.47826087, y: 0.6111111}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 57
-      y: 4
-      width: 46
-      height: 36
-    spriteID: 9a35c834151bfeb43825d72d552190fb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 57, y: 4}
-  - name: Happy_Sheep_Frame_6
-    originalName: 
-    pivot: {x: 0.47826087, y: 0.6111111}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 57
-      y: 48
-      width: 46
-      height: 36
-    spriteID: efb4b6c8b78b6c44e8017f3d002806c1
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 57, y: 48}
-  - name: Happy_Sheep_Frame_7
-    originalName: 
-    pivot: {x: 0.47727275, y: 0.5945946}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 162
-      y: 4
-      width: 44
-      height: 37
-    spriteID: e359db0538b7bb749bac6b5690373c75
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 162, y: 4}
-  - name: Happy_Sheep_Frame_8
-    originalName: 
-    pivot: {x: 0.4883721, y: 0.57894737}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 111
-      y: 50
-      width: 43
-      height: 38
-    spriteID: 69eb0ec36331e0f47934d60cc9932585
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 111, y: 50}
-  - name: Happy_Sheep_Frame_9
-    originalName: 
-    pivot: {x: 0.4883721, y: 0.57894737}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 111
-      y: 96
-      width: 43
-      height: 38
-    spriteID: 11e81dfed224a1443b43b9dc5f60b4c8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 111, y: 96}
-  - name: Happy_Sheep_Frame_10
-    originalName: 
-    pivot: {x: 0.5, y: 0.45833334}
+    pivot: {x: 0.6071429, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 174
-      width: 38
-      height: 48
-    spriteID: 7aa47adfb3200274aaa86f8d8fdeaf77
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 174}
-  - name: Happy_Sheep_Frame_11
-    originalName: 
-    pivot: {x: 0.46666667, y: 0.44}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 63
-      width: 45
+      y: 114
+      width: 28
       height: 50
-    spriteID: 05190c94e9cd5344ca7427cae30e4446
+    spriteID: 611010aa531b0cd42bd91a56eb2fa279
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -360,19 +140,199 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 63}
-  - name: Happy_Sheep_Frame_12
+    uvTransform: {x: 4, y: 114}
+  - name: enemy-punk_Frame_1
     originalName: 
-    pivot: {x: 0.46666667, y: 0.43137255}
+    pivot: {x: 0.6071429, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 114
+      width: 28
+      height: 49
+    spriteID: 0d8ced494b90624408c50528fec114cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 114}
+  - name: enemy-punk_Frame_2
+    originalName: 
+    pivot: {x: 0.6071429, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 114
+      width: 28
+      height: 48
+    spriteID: 7aba7ce4786edd744ab4cf0ffe3d91b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 114}
+  - name: enemy-punk_Frame_3
+    originalName: 
+    pivot: {x: 0.6071429, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 114
+      width: 28
+      height: 49
+    spriteID: 750f9fac112638e449417af7fd2e6585
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 114}
+  - name: enemy-punk_Frame_4
+    originalName: 
+    pivot: {x: 0.6071429, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 114
+      width: 28
+      height: 50
+    spriteID: 819ffbfcce7229e4680d1d37d13cc16a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 114}
+  - name: enemy-punk_Frame_5
+    originalName: 
+    pivot: {x: 0.7083334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 172
+      width: 24
+      height: 51
+    spriteID: 87f5f49b159e53643aa74e846006eddc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 172}
+  - name: enemy-punk_Frame_6
+    originalName: 
+    pivot: {x: 0.7083334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 172
+      width: 24
+      height: 52
+    spriteID: 03ce4e68fc5341447b5e7d5fbb76cb7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 172}
+  - name: enemy-punk_Frame_7
+    originalName: 
+    pivot: {x: 0.7083334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 172
+      width: 24
+      height: 52
+    spriteID: 2fe5b8bc6b47de34dbeaa9749832cad0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 172}
+  - name: enemy-punk_Frame_8
+    originalName: 
+    pivot: {x: 0.6071429, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 114
+      width: 28
+      height: 50
+    spriteID: 436e8597d1c004d47945d88ce112c9b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 114}
+  - name: enemy-punk_Frame_9
+    originalName: 
+    pivot: {x: 0.50000006, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 57
+      width: 28
+      height: 48
+    spriteID: f01a44d503d243e46a738bc6fc5e0581
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 57}
+  - name: enemy-punk_Frame_10
+    originalName: 
+    pivot: {x: 0.75510204, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 45
-      height: 51
-    spriteID: 02e9e8a18a7dc3144aa6b7679bfe436a
+      width: 49
+      height: 45
+    spriteID: e14712468e2e04444ac6c20a16c6f0d6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -381,18 +341,38 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Happy_Sheep_Frame_13
+  - name: enemy-punk_Frame_11
     originalName: 
-    pivot: {x: 0.46666667, y: 0.4888889}
+    pivot: {x: 0.6071429, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 114
+      width: 28
+      height: 50
+    spriteID: d2069505f9d4e2242a881ae17d6fad00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 114}
+  - name: enemy-punk_Frame_12
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 121
-      width: 45
-      height: 45
-    spriteID: 9879f6e834d027348b046ee8f114ff61
+      y: 57
+      width: 32
+      height: 49
+    spriteID: 92227ba35ace19541af9409e82046e96
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -400,19 +380,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 121}
-  - name: Happy_Sheep_Frame_14
+    uvTransform: {x: 4, y: 57}
+  - name: enemy-punk_Frame_13
     originalName: 
-    pivot: {x: 0.4814815, y: 0.73333335}
+    pivot: {x: 0.51020414, y: -0.025000002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 162
-      y: 49
-      width: 54
-      height: 30
-    spriteID: fcc28881a1721c043a9f320cbfc45016
+      x: 61
+      y: 4
+      width: 49
+      height: 40
+    spriteID: 8cb6f0056f40f91499ce09d0e91f2237
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -420,151 +400,171 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 162, y: 49}
+    uvTransform: {x: 61, y: 4}
+  - name: enemy-punk_Frame_14
+    originalName: 
+    pivot: {x: 0.58064514, y: 0.058823533}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 4
+      width: 62
+      height: 17
+    spriteID: d29bb6cc354225b4fa094031895a1bc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1097607552
-    name: Happy_Sheep
+    guid: -1307015761
+    name: enemy-punk
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Happy_Sheep_Frame_0
+    - name: enemy-punk_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 43
-        height: 38
-      spriteId: 0ef03b20d56e90c4492ef20d13f02bda
-    - name: Happy_Sheep_Frame_1
+        x: 31
+        y: 0
+        width: 28
+        height: 50
+      spriteId: 611010aa531b0cd42bd91a56eb2fa279
+    - name: enemy-punk_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 43
-        height: 38
-      spriteId: bd23d1ef05ff539488e86d23ca355e87
-    - name: Happy_Sheep_Frame_2
+        x: 31
+        y: 0
+        width: 28
+        height: 49
+      spriteId: 0d8ced494b90624408c50528fec114cb
+    - name: enemy-punk_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 43
-        height: 38
-      spriteId: b93480abed9072a4c95e406d0cee3ed1
-    - name: Happy_Sheep_Frame_3
+        x: 31
+        y: 0
+        width: 28
+        height: 48
+      spriteId: 7aba7ce4786edd744ab4cf0ffe3d91b5
+    - name: enemy-punk_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 43
-        height: 38
-      spriteId: 8fed9af462c86c847b345d8bae710f81
-    - name: Happy_Sheep_Frame_4
+        x: 31
+        y: 0
+        width: 28
+        height: 49
+      spriteId: 750f9fac112638e449417af7fd2e6585
+    - name: enemy-punk_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 43
-        height: 37
-      spriteId: 9bdaf3da87e6d4443a0d37169e4b66c6
-    - name: Happy_Sheep_Frame_5
+        x: 31
+        y: 0
+        width: 28
+        height: 50
+      spriteId: 819ffbfcce7229e4680d1d37d13cc16a
+    - name: enemy-punk_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
-        x: 42
-        y: 42
-        width: 46
-        height: 36
-      spriteId: 9a35c834151bfeb43825d72d552190fb
-    - name: Happy_Sheep_Frame_6
+        x: 31
+        y: 0
+        width: 24
+        height: 51
+      spriteId: 87f5f49b159e53643aa74e846006eddc
+    - name: enemy-punk_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-        x: 42
-        y: 42
-        width: 46
-        height: 36
-      spriteId: efb4b6c8b78b6c44e8017f3d002806c1
-    - name: Happy_Sheep_Frame_7
+        x: 31
+        y: 0
+        width: 24
+        height: 52
+      spriteId: 03ce4e68fc5341447b5e7d5fbb76cb7a
+    - name: enemy-punk_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 44
-        height: 37
-      spriteId: e359db0538b7bb749bac6b5690373c75
-    - name: Happy_Sheep_Frame_8
+        x: 31
+        y: 0
+        width: 24
+        height: 52
+      spriteId: 2fe5b8bc6b47de34dbeaa9749832cad0
+    - name: enemy-punk_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 43
-        height: 38
-      spriteId: 69eb0ec36331e0f47934d60cc9932585
-    - name: Happy_Sheep_Frame_9
+        x: 31
+        y: 0
+        width: 28
+        height: 50
+      spriteId: 436e8597d1c004d47945d88ce112c9b8
+    - name: enemy-punk_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 43
-        height: 38
-      spriteId: 11e81dfed224a1443b43b9dc5f60b4c8
-    - name: Happy_Sheep_Frame_10
+        x: 34
+        y: 0
+        width: 28
+        height: 48
+      spriteId: f01a44d503d243e46a738bc6fc5e0581
+    - name: enemy-punk_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
-        x: 45
-        y: 42
-        width: 38
-        height: 48
-      spriteId: 7aa47adfb3200274aaa86f8d8fdeaf77
-    - name: Happy_Sheep_Frame_11
+        x: 11
+        y: 0
+        width: 49
+        height: 45
+      spriteId: e14712468e2e04444ac6c20a16c6f0d6
+    - name: enemy-punk_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 45
+        x: 31
+        y: 0
+        width: 28
         height: 50
-      spriteId: 05190c94e9cd5344ca7427cae30e4446
-    - name: Happy_Sheep_Frame_12
+      spriteId: d2069505f9d4e2242a881ae17d6fad00
+    - name: enemy-punk_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 45
-        height: 51
-      spriteId: 02e9e8a18a7dc3144aa6b7679bfe436a
-    - name: Happy_Sheep_Frame_13
+        x: 32
+        y: 0
+        width: 32
+        height: 49
+      spriteId: 92227ba35ace19541af9409e82046e96
+    - name: enemy-punk_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
-        x: 43
-        y: 42
-        width: 45
-        height: 45
-      spriteId: 9879f6e834d027348b046ee8f114ff61
-    - name: Happy_Sheep_Frame_14
+        x: 23
+        y: 1
+        width: 49
+        height: 40
+      spriteId: 8cb6f0056f40f91499ce09d0e91f2237
+    - name: enemy-punk_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
-        x: 38
-        y: 42
-        width: 54
-        height: 30
-      spriteId: fcc28881a1721c043a9f320cbfc45016
+        x: 12
+        y: -1
+        width: 62
+        height: 17
+      spriteId: d29bb6cc354225b4fa094031895a1bc4
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -595,4 +595,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 128, y: 128}
+  canvasSize: {x: 96, y: 63}
