@@ -55,7 +55,7 @@ public class LacosDeRepeticao : MonoBehaviour
         nomes = new string[5];
         nomes[0] = "Tadola";
 
-        print(nomes[1]); //null
+        print(nomes[1]); //nullz
 
             //print(i);
     }
