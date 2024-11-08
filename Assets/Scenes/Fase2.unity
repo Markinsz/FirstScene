@@ -795,6 +795,7 @@ GameObject:
   - component: {fileID: 1305911973}
   - component: {fileID: 1305911974}
   - component: {fileID: 1305911975}
+  - component: {fileID: 1305911976}
   m_Layer: 0
   m_Name: enemy-punk_Frame_0
   m_TagString: Untagged
@@ -963,13 +964,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305911968}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8f9e98d5a12d3447a591a4c51ce9e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moedas: 0
   FasesTotais: 10
+--- !u!114 &1305911976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305911968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff3b79c276e3c340962ce3c5e8836b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "Pontua\xE7\xE3o": 0
+  NumCombo: 7
 --- !u!1 &1309002888
 GameObject:
   m_ObjectHideFlags: 0
