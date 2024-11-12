@@ -20,6 +20,8 @@ public class Execício3 : MonoBehaviour
         for (int i = 1; i <= FasesTotais; i++)
         {
             moedas += 3;
+
+            print("Total de moedas coletadas: " + moedas);
         }
         print(moedas + " moedas no total!");
     }
