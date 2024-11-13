@@ -12,7 +12,7 @@ public class Desafio1 : MonoBehaviour
 {
 
     [SerializeField] string palavra;
-    string letra;
+    char letra;
     int contador;
 
     // Start is called before the first frame update
@@ -20,18 +20,27 @@ public class Desafio1 : MonoBehaviour
     {
         for (int i = 0; i < palavra.Length; i++)
         {
-            letra += palavra[i];
-            if (letra != "a" & letra != "e" & letra != "i" & letra != "o" & letra != "u")
+            if ("qrtypsdfghjklzxcvbnm".Contains(char.ToLower(letra)))
             {
                 contador++;
-                letra = "";
-            }
-            else 
-            { 
-                letra = ""; 
             }
         }
-        print(contador);
+
+            //Errado
+            //for (int i = 0; i < palavra.Length; i++)
+            //{
+            //    letra += palavra[i];
+            //    if (letra != "a" & letra != "e" & letra != "i" & letra != "o" & letra != "u")
+            //    {
+            //        contador++;
+            //        letra = "";
+            //    }
+            //    else 
+            //    { 
+            //        letra = ""; 
+            //    }
+            //}
+            print(contador);
     }
 
     // Update is called once per frame
