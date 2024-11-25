@@ -22,7 +22,7 @@ public class Desafio1 : MonoBehaviour
         {
             if ("qrtypsdfghjklzxcvbnm".Contains(char.ToLower(letra)))
             {
-                contador++;
+                contador++;~x
             }
         }
 
